@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pragati AI | Voice Command Master</title>
+    <title>Pragathi AI | Voice Command Master</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     
     <script type="importmap">
@@ -58,7 +58,7 @@
 
 <div id="login-overlay">
     <div class="login-card">
-        <h1 style="font-size: 30px; margin:0;">Pragati Syber Security AI </h1>
+        <h1 style="font-size: 30px; margin:0;">Pragathi Cyber Security AI </h1>
         <p style="color:#64748b; margin-top:5px; margin-bottom:30px;">Secure Cybersecurity Voice Command Dashboard</p>
         <div class="social-btn" onclick="secureLogin('Google')"><img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" width="24"> Login with Google</div>
         <div class="social-btn" onclick="secureLogin('Microsoft')"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="24"> Login with Microsoft ID</div>
@@ -72,8 +72,8 @@
 
 <div id="main-dashboard">
     <div class="sidebar">
-        <div class="ai-title">🛡️ Pragati Syber Security AI Version</div>    
-        <div id="chat-log"><b>Pragati AI:</b> I am listening. You can type or use the voice button below.</div>
+        <div class="ai-title">🛡️ Pragathi Cyber Security AI Version</div>    
+        <div id="chat-log"><b>Pragathi AI:</b> I am listening. You can type or use the voice button below.</div>
         
         <textarea id="userInput" class="long-input" placeholder="Enter security report..."></textarea>
         
@@ -97,7 +97,7 @@
             </div>
 
             <div class="card">
-                <h2>🔍 Pragati Link Scan</h2>
+                <h2>🔍 Pragathi Link Scan</h2>
                 <input type="text" id="urlIn" placeholder="Enter URL to analyze..." style="width:100%; padding:15px; border-radius:12px; border:1px solid #ddd; margin-bottom: 15px;">
                 <button class="btn-main" onclick="scanLink()">Run AI Audit</button>
             </div>
@@ -128,7 +128,7 @@
 
 <script type="module">
     import { GoogleGenerativeAI } from "@google/generative-ai";
-    const API_KEY = "";
+    const API_KEY = "AIzaSyDbzhjK9s5ShJcWEFq407RQN7z1sFLprvQ";
     const genAI = new GoogleGenerativeAI(API_KEY);
     const model = genAI.getGenerativeModel({ model:"gemini-flash-latest" });
 
@@ -248,5 +248,4 @@
 };
 </script>
 </body>
-
 </html>

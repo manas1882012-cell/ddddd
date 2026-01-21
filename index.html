@@ -166,7 +166,7 @@
             document.getElementById('login-overlay').style.display='none';
             document.getElementById('main-dashboard').style.display='flex';
             document.getElementById('top-nav').style.display='flex';
-            speak("Welcome to Pragati AI. Your security is our priority.");
+            speak("Welcome to Pragathi AI. Your security is our priority.");
         } else {
             alert("Please enter a valid email address to login.");
         }
@@ -182,7 +182,7 @@
         try {
             const res = await model.generateContent(text);
             const reply = res.response.text();
-            log.innerHTML += `<div><b>Pragati syber security AI:</b> ${reply}</div>`;
+            log.innerHTML += `<div><b>Pragati cyber security AI:</b> ${reply}</div>`;
             speak(reply);
         } catch(e) { log.innerHTML += `<div>Connection error.</div>`; }
         log.scrollTop = log.scrollHeight;
@@ -249,6 +249,7 @@
 </script>
 </body>
 </html>
+
 
 
 
